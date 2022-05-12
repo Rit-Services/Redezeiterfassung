@@ -1,0 +1,55 @@
+.hoverpointer:hover{
+    cursor: pointer;
+}
+
+.dx-popup-title{
+    background-color: #08435C !important;
+    color: white !important;
+    font-family: 'Abel' !important;
+}
+
+.dx-button-mode-text .dx-icon{
+    color: white !important;
+}
+
+.new-top:hover{
+    cursor: pointer;
+}
+
+.dx-button{
+    background-color:#5C778E !important;
+    color: white
+}
+
+.dx-button:hover{
+    background-color:#08435C !important;
+    color: white
+}
+
+.add-top-option:hover{
+    cursor: pointer;
+}
+
+#test-link-id{
+    color: #08435C;
+    font-size: 10px;
+}
+
+#sessionbanner-hover{
+    display: none;
+    float: left;
+    background-color: #5C778E;
+    width: 100%;
+}
+
+.container-navbar-wrapper:hover ~ #sessionbanner-hover{
+    display: block !important;
+}
+
+.fff:hover ~ #sessionbanner-hover{
+    display: block !important;
+}
+
+#sessionbanner-hover:hover{
+    display: block;
+}

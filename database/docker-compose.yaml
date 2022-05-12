@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  mongo1:
+    container_name: mongo-1
+    image: mongo:latest
+    volumes:
+      - ../mongors/data1:/data/db
+      - ../file.key:/data/file.key
+      - ../rs-init.sh:/data/rs-init.sh
+    ports:
+      - 27018:27017
+    restart: unless-stopped
+    entrypoint:
+            - bash
+            - -c
+            - |
+                chmod 400 /data/file.key
+                chmod a+x /data/rs-init.sh
+                chown 999:999 /data/file.key
+                chown 999:999 /data/rs-init.sh
+                exec docker-entrypoint.sh $$@     
+    command: "mongod --bind_ip_all --replSet rs --keyFile /data/file.key"
+    

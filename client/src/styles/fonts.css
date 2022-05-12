@@ -1,0 +1,14 @@
+.font-link {
+    font-family: 'Abel';
+}
+
+
+.itemlist-card:hover{
+    cursor: pointer;
+}
+/*  */
+
+/* .font-link:hover{
+    text-decoration: none;
+    color: white;
+} */

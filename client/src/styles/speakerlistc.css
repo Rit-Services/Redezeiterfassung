@@ -1,0 +1,104 @@
+
+
+/* .dx-list-item-content{
+    background-color: #BDC6D1;
+    color: #081D34;
+}
+
+.dx-list-item-content:hover{
+    background-color: #5C778E;
+    color: white;
+    
+}
+
+
+.dx-list-item-content:focus{
+  background-color: #5C778E !important;
+  color: white;
+}
+
+
+*/
+.dx-list-item{
+  background-color: #BDC6D1;
+    margin-top: 5px;
+} 
+
+.dx-list-item.dx-state-hover{
+  background-color: #08435C !important;;
+  color: white !important;
+}
+
+.dx-list-item.dx-state-focused{
+  background-color: #08435C !important;;
+  color: white !important;
+}
+
+.dx-list-item.dx-state-active{
+  background-color: #08435C !important;;
+  color: white !important;
+}
+
+.speaker-spoken:hover{
+    background-color: #5C778E;
+    color: white;
+}
+
+.Timer{
+    float:right;
+    clear: right;
+    padding-right: 0px !important;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 5px;
+    
+  }
+  
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #d8d8d8; 
+    border-radius: 5px;
+  }
+ 
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(126, 126, 126, 0.7); 
+    border-radius: 5px;
+    width: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(191,191,191,.7); 
+  }
+
+  .option-btn{
+    cursor: pointer;
+  }
+
+  .active-option{
+    background-color: #08435C !important;
+  }
+
+  .negative-party-tile{
+    background-color: rgb(245, 185, 185);
+    font-weight: bold;
+  }
+
+  .ninety-sec-remain-negative{
+    color: red !important;
+  }
+
+  .question-btn:hover{
+    cursor: pointer;
+  }
+
+
+  .recent-speakers-tile:hover{
+    cursor: pointer;
+  }

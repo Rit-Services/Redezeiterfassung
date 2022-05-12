@@ -1,0 +1,24 @@
+Change API address
+
+baseURL: 'http://localhost:2900/api', /// Change to 58.65 IP address
+
+
+Change Background color and add test background image
+
+
+const Wrapper = styled.div.attrs({className:"main-wrapper"})`
+    padding: 0px;
+    margin: 0px;
+    width:100%;
+    height: 100%;
+    float: left;
+    background-color: #FDDDCF;
+    background-image: url(./test.png)
+`
+
+Change the Name of RedaktionPage to RedaktionPageTest in RedaktionPageTest.jsx and App/index.js
+
+
+Change Link from test to REAL in NavBar and also change background color of the Navbar. Also Change to TESTMODUS in title.
+
+also change to real in navbar icon.

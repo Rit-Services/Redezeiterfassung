@@ -1,0 +1,8 @@
+.bi:hover{
+    cursor: pointer;
+}
+
+.loading{
+    float: left;
+    padding: 5px;
+}

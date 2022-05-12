@@ -1,0 +1,72 @@
+.import-btn{
+    float:right;
+    height: 40px;
+    margin-top: 0px;
+    width: 90px;
+    margin-left: 20px;
+    border-radius: 8px;
+    background-color: #08435C;
+    padding: 7px;
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+
+    font-size: large;
+    text-align: center;
+    
+}
+.import-btn:hover{
+    background-color: #08435C;
+    cursor: pointer;
+}
+
+.import-btn-disable{
+    float:right;
+    height: 40px;
+    margin-top: 0px;
+    width: 90px;
+    margin-left: 20px;
+    border-radius: 8px;
+    background-color: #BDC6D1;
+    padding: 7px;
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+
+    font-size: large;
+    text-align: center;
+}
+
+
+.import-btn-negative{
+    float:right;
+    height: 40px;
+    margin-top: 0px;
+    width: 90px;
+    margin-left: 20px;
+    border-radius: 8px;
+    background-color: rgb(247, 2, 2);
+    padding: 7px;
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+
+    font-size: large;
+    text-align: center;
+}
+
+/* .session-number:hover ~ .hide-onhover{
+    display: block;
+} */
+
+#test-link-id{
+    text-decoration: none;
+    color: white;
+}
+
+.redaktionpage-wrapper{
+    background-image: none;
+}

@@ -1,0 +1,58 @@
+version: '3'
+
+services:
+  frontend:
+    container_name: frontend-v0.02
+    build:
+      context: ./client/
+      dockerfile: Dockerfile
+      args:
+        - REACT_APP_SERVER_IP=${SERVER1_IP}
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    depends_on:
+      - "real"
+  real:
+    container_name: real-backend-v0.02
+    build: 
+      context: ./server/
+      dockerfile: Dockerfile
+      args:
+        - MONGODB_URL=mongodb://realmodus:ritservices2022@10.15.28.160:27018,10.15.28.170:27019,10.15.28.170:27020/landtag-demo?replicaSet=rs
+    ports:
+      - "3333:3000"
+    restart: unless-stopped
+  test:
+    container_name: test-backend-v0.02
+    build: 
+      context: ./testserver/
+      dockerfile: Dockerfile
+      args:
+        - MONGODB_URL=mongodb://testmodus:ritservices2022@10.15.28.160:27018,10.15.28.170:27019,10.15.28.170:27020/landtag-demo-test?replicaSet=rs
+    ports:
+      - "2929:2900"
+    restart: unless-stopped
+    
+  
+  loadbalancer:
+    container_name: loadbalancer-1-v0.02
+    build:
+      context: ./loadbalancer/
+      dockerfile: Dockerfile
+    ports:
+      - 80:80
+      - 8090:8090
+      - 3999:3999
+      - 2999:2999
+    depends_on:
+      - "frontend"
+  
+
+
+
+  
+    
+    
+
+    

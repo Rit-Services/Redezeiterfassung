@@ -1,0 +1,26 @@
+{
+    "Tagesordnungspunkt": "Entwurf eines Gesetzes zur Ãnderung de",
+    "Fraktion": [
+        {
+            "Fraktion": "SPD",
+            "RestRedezeit": "00:03:00"
+        },
+        {
+            "Fraktion": "CDU",
+            "RestRedezeit": "00:03:00"
+        },
+        {
+            "Fraktion": "Grünen",
+            "RestRedezeit": "00:03:00"
+        },
+        {
+            "Fraktion": "FDP",
+            "RestRedezeit": "00:02:00"
+        },
+        {
+            "Fraktion": "Landesregierung",
+            "RestRedezeit":"00:02:00"
+        }
+    ],
+    "StopUhr": "00:02:40"
+}

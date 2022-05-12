@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "Buffer": "0.0.0",
+    "axios": "^0.26.1",
+    "body-parser": "^1.19.0",
+    "buffer": "^6.0.3",
+    "child-process": "^1.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "https": "^1.0.0",
+    "iconv": "^3.0.1",
+    "iconv-lite": "^0.6.3",
+    "mongoose": "^6.0.6",
+    "nodemon": "^2.0.12",
+    "obs-websocket-js": "^4.0.3",
+    "request": "^2.88.2",
+    "require": "^2.4.20",
+    "utf8": "^3.0.0",
+    "xml2js": "^0.4.23",
+    "xml2json": "^0.12.0"
+  }
+}

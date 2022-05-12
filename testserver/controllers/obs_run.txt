@@ -1,0 +1,4 @@
+
+docker exec -it obs2 /bin/bash
+
+ls
